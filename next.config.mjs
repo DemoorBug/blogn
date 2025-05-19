@@ -1,7 +1,9 @@
-module.exports = {
+const nextConfig = {
     output: 'export',
-    basePath: '/blogn', // 替换为您的仓库名称
     images: {
-      unoptimized: true,
+        unoptimized: true
     },
-  };
+    basePath: 'blogn'
+}
+
+export default nextConfig
